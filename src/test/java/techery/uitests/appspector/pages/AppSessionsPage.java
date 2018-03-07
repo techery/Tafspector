@@ -1,4 +1,4 @@
 package techery.uitests.appspector.pages;
 
-public class NavigationPanelWidget {
+public class AppSessionsPage {
 }
