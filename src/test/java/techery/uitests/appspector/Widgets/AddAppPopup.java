@@ -1,7 +1,8 @@
-package techery.uitests.appspector.pages;
+package techery.uitests.appspector.Widgets;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import techery.uitests.appspector.pages.AppSetupPage;
 
 import static com.codeborne.selenide.Selenide.$;
 

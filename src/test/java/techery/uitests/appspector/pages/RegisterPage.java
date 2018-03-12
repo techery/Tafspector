@@ -10,21 +10,21 @@ public class RegisterPage {
 
     public RegisterPage enterUsername(String username) {
         $(By.cssSelector("input[type=\"text\"]")).val(username);
-        return page(RegisterPage.class);
+        return new RegisterPage();
     }
 
     public RegisterPage enterEmail(String email){
         $(By.xpath("//div[2]/div[2]/input")).val(email);
-        return page(RegisterPage.class);
+        return new RegisterPage();
     }
 
     public RegisterPage enterPassword(String password){
         $(By.cssSelector("input[type=\"password\"]")).val(password);
-        return page(RegisterPage.class);
+        return new RegisterPage();
     }
 
-    public DashboardPage submitForm(){
+    public TermsAndConditions submitForm(){
         $(By.cssSelector("button.as-button.default.size-lg")).click();
-        return page(DashboardPage.class);
+        return new TermsAndConditions();
     }
 }
